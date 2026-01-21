@@ -131,7 +131,7 @@ scenes = {              #This dictionary holds all the scenes in the game
         "choices":{}
         },
     "Court":{
-        "text": "You narrowly take down Zacharias. Walking over his monstrous and clearly"
+        "text": "You narrowly take down Zacharias. Walking over his clearly"
                 "deformed monstorous body, you get to the basketball court."
                 "It's time for a little break after that intense fight,"
                 " do you turn the disco lights on or shoot some basketball? (Shoot, Lights)",
@@ -282,4 +282,5 @@ def play(scene):
      
 
 play("start")
+
 
