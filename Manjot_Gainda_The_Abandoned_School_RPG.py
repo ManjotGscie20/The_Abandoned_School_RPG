@@ -60,7 +60,7 @@ def fight():
 scenes = {              #This dictionary holds all the scenes in the game
     "start":{           #scene name
         "text" :"Your friend tells you about the 'haunted school'..."       #Text that gets displayed to the user
-                "Sheldon Williams. Do you go ecplore by yourself tonight and prove him wrong? (Yes,No)",
+                "Sheldon Williams. Do you go explore by yourself tonight and prove him wrong? (Yes,No)",
         "choices":{       #Another dicionary that holds the user's possible choices
             "yes": "Outside_School" , "no": "stay",        #Sends the user to a specific scene based on their choice
             }
@@ -282,3 +282,4 @@ def play(scene):
      
 
 play("start")
+
