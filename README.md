@@ -8,3 +8,5 @@ With various choices all leading to different outcomes, can you escape the aband
 ## **Installation**
 Python 3.7 is needed to play this game, please install Python here:
 [https://www.python.org/downloads/](url)
+This game was made in Thonny, download it here:
+[https://thonny.org/](url)
