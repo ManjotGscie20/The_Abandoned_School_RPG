@@ -280,4 +280,5 @@ def play(scene):
             print("Invalid choice")
             
      
-play("start")Sc
+
+play("start")
