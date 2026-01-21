@@ -251,7 +251,7 @@ def play(scene):
             if scene == "Downstairs":          #checks if the scene is downstairs
                 Weapons.update({"Bat": {"Damage": 10}})  #if it is, gives the user a new weapon
                 print("\nYou found the Bat Weapon (Damage: 10)!")   #prints out statement about user finding new weapon
-            if scene == "Item":                 #checks if the scene is item
+            if scene == "Item" or scene == "Airball":                 #checks if the scene is item
                 Weapons.update({"Basketball": {"Damage": 10}})     #if it is, gives the user a new weapon
                 print("\nYou found the Basketball Weapon (Damage: 10)!")     #prints statement
             if scene == "fight":           #if scene is fight, then the user has selected to engage with an enemy
@@ -282,5 +282,6 @@ def play(scene):
      
 
 play("start")
+
 
 
